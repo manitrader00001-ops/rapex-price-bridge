@@ -1,0 +1,14 @@
+{
+  "name": "rapex-price-bridge",
+  "version": "1.0.0",
+  "description": "Real-time price bridge for Rapex Markets",
+  "main": "price-bridge.js",
+  "scripts": {
+    "start": "node price-bridge.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "ccxt": "^4.0.100"
+  }
+}
